@@ -9,7 +9,7 @@ export const REDIRECT_MAIN: RouteRecordRaw = {
   component: DEFAULT_LAYOUT,
   meta: {
     requiresAuth: true,
-    hideInMenu: false,
+    hideInMenu: true,
   },
   children: [
     {
